@@ -1,0 +1,502 @@
+/* ここから下に記載していく */
+html{
+    font-size: 62.5%;
+
+}
+
+
+body{color: #333;
+    font-size:1.6rem;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+.site-title{
+    font-size: 2.4rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+
+}
+
+.wrap{
+    width: 1000px;
+    margin: auto;
+}
+
+/* header */
+.header__nav{
+    display: flex;
+    color: gray;
+        }
+
+.header__nav li{
+    margin-left: 60px;
+    font-family:'Knewave', cursive;
+}
+
+.link{
+    display: inline-block;
+	transition: all .3s ease 0s;
+	text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* mainvisual */
+.mainvisual{
+    height: 400px;
+    background: url(../img/mainimg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.main__sekai{
+    padding-top: 180px;
+    font-size: 3.0rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main__cheese{
+    font-size: 2.4rem;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+/* main-about */
+.about{
+    text-align: center;
+}
+
+.main__about{
+    margin: 180px 0 30px;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #ffd61a;
+    font-family: 'Nosifer', cursive;
+}
+.about__cheese{
+    margin: 60px 0 60px;
+    font-size: 2.0rem;
+}
+
+.about__school{
+    margin: 0 0 40px;
+    font-size: 1.6rem;
+}
+
+.about__cheese3{
+    margin: 0 0 40px;
+    font-size: 1.6rem;
+}
+
+.about__cheese4{
+    margin: 0 0 40px;
+    font-size: 1.6rem;
+}
+
+.about__cheese5{
+    margin: 0 0 80px;
+    font-size: 1.6rem;
+}
+
+.imgbox{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.imgbox p{
+    width: 25%;
+}
+
+.imgbox p img{
+    width: 100%;
+}
+
+/* course */
+
+.course__title{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Nosifer', cursive;
+    color: #ffd61a;
+}
+
+.course__text{
+    text-align: center;
+    line-height: 1.8;
+    margin-bottom: 60px;
+}
+/* チャレンジ */
+
+.cp_accordionslide02 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	visibility: hidden;
+	width: 100%;
+	height: 60vh;
+}
+.cp_accordionslide02 .slideitem {
+	position: relative;
+	visibility: visible;
+	overflow: hidden;
+	width: 33%;
+	height: 100%;
+	cursor: pointer;
+	-webkit-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.cp_accordionslide02 .slideitem:nth-child(1) {
+	background-image: url('../img/cheese_01.jpg');
+}
+.cp_accordionslide02 .slideitem:nth-child(2) {
+	background-image: url('../img/cheese_02.jpg');
+}
+.cp_accordionslide02 .slideitem:nth-child(3) {
+	background-image: url('../img/cheese_03.jpg');
+}
+.cp_accordionslide02 .slideitem:nth-child(4) {
+	background-image: url('img/sample9.jpg');
+}
+.cp_accordionslide02 .slideitem:nth-child(5) {
+	background-image: url('img/sample10.jpg');
+}
+.cp_accordionslide02 .slideitem:after {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	content: '';
+	opacity: 0;
+}
+.cp_accordionslide02:hover .slideitem:hover {
+	width: 60%;
+}
+.cp_accordionslide02 .slideitem .slidecont {
+	position: absolute;
+	z-index: 4;
+	bottom: 60px;
+	left: 30px;
+	visibility: hidden;
+	max-width: 400px;
+	padding: 20px;
+	color: #333;
+	border-radius: 5px;
+	background-color: #ffd61a;
+}
+.cp_accordionslide02 .slideitem .slidecont h2 {
+	font-size: 1.4em;
+    font-weight: bold;
+}
+.cp_accordionslide02 .slideitem .slidecont p {
+	margin-top: 20px;
+}
+.cp_accordionslide02:hover .slideitem:hover .slidecont {
+	bottom: 30px;
+	visibility: visible;
+	-webkit-transition: all 0.2s linear 0.5s;
+	transition: all 0.2s linear 0.5s;
+	opacity: 1;
+}
+@media only screen and (max-width:768px) {
+	.cp_accordionslide02 {
+		height: 80vh;
+	}
+	.cp_accordionslide02 .slideitem .slidecont h2 {
+		font-size: 0.9em;
+        
+	}
+	.cp_accordionslide02 .slideitem .slidecont p {
+		font-size: 0.7em;
+
+	}
+	.cp_accordionslide02 .slideitem .slidecont {
+		right: 10px;
+		left: 10px;
+	}
+}
+/* couse nouen */
+
+.nouen{
+    display: flex;
+    width: 1000px;
+    
+}
+.left__img{
+    width: 500px;
+}
+.left__wrap{
+    width: 500px;
+    height: 337.24px;
+    display:table;
+}
+.left__textbox{
+    display: table-cell;
+    vertical-align: middle;
+}
+.left__title{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0 0 40px 50px;
+}
+
+.left__text{
+    font-size: 1.6rem;
+    text-align: left;
+    margin-left: 50px;
+    line-height: 1.8;
+}
+
+/* news */
+
+.news__title{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 60px;
+    color: #ffd61a;
+    font-family: 'Nosifer', cursive;
+}
+
+.news__subtitle{
+    text-align: center;
+    margin: 30px 0 60px;
+}
+
+.newslist{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+}
+
+.newslist__item{
+    width: 300px;
+}
+
+.newslist__item img{
+    margin-bottom: 30px;
+    width: 100%;
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition-duration: 0.5s;
+}
+.newslist__item img:hover{
+    filter: grayscale(0);
+    transition-duration: 0.5s;
+  }
+
+.newslist__item-day{
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.newslist__item-text{
+    line-height: 1.8;
+}
+
+.btn{
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 21px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #ffd61a;
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.btn:hover {
+    border-radius: 10px;
+    color: white; 
+}
+
+/* ACCESS */
+.access{
+    background-color: #f5f5f5;
+    padding: 60px 0 60px;
+    margin-bottom: 60px;
+}
+.access-wrapper{
+    width: 550px;
+    line-height: 3.0rem;
+    margin:0 auto;
+}
+.access-title{
+    text-align: center;
+    font-size: 5.0rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'Nosifer', cursive;
+    color: #ffd61a;
+}
+.access-subtitle{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 60px;
+}
+
+.access-inner{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.access-form{
+    float: left;
+    clear: left;
+    margin-right: 30px;
+    width: 120px;
+}
+
+.access-text{
+    float: left;
+    width: 400px;
+}
+
+.gmap {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    margin-bottom: 60px;
+    }
+    .gmap iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    }
+
+/* contact */
+
+.contact{
+    margin-bottom: 40px;
+}
+.contact__title{
+    text-align: center;
+    font-size: 5.0rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'Nosifer', cursive;
+    color: #ffd61a;
+}
+
+.comtact__subtitle{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contact__text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact__bikou{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.form-wrapper{
+    width: 640px;
+    margin: auto;
+}
+
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.form-title{
+    width: 240px;
+    margin: 8px 0 8px;
+    padding: 8px 0 0;
+}
+
+.form-item{
+    width: 400px;
+    margin: 8px 0 8px;
+}
+.form-label{
+    font-size: 1.4rem;
+}
+
+.form-parts{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    padding: 8px;
+    border: solid 1px #c9c9c9;
+    font-size: 1.6rem;
+}
+input[type*="radio"]{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    margin:0 20px 0 0 ;
+    border: solid 1px #a0a0a0;
+    vertical-align: -2px;
+    line-height: 3.4rem;
+}
+input[type*="radio"]:checked{
+    background-color: #a0a0a0;
+}
+.form-radio{
+    width: 400px;
+    display: flex;
+    flex-flow: column;
+    line-height: 3.4rem;
+}
+.btn-submit{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+
+/* fotter */
+
+.footer{
+    text-align: center;
+    padding: 24px;
+    background-color: #707070;
+}
+.copyrights{
+    color: #fff;
+}
